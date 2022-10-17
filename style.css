@@ -78,7 +78,7 @@ html {
 
 .home {
     display: flex;
-    background: url(/img/v617batch2-bb-01-technology.jpg) no-repeat;
+    background: url(/img/banner\ 2.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -93,12 +93,14 @@ html {
 
 .home .home-content .text-1 {
     font-size: 27px;
+    text-shadow: 3px 3px 2px #333;
 }
 
 .home .home-content .text-2 {
     font-size: 75px;
     font-weight: 500;
     margin-left: -3px;
+    text-shadow: 3px 3px 2px #333;
 }
 
 .home .home-content .text-3 {
