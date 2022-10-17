@@ -15,7 +15,7 @@ $(document).ready(function(){
         $('html').animate({scrollTop: 0});
     });
 
-    var typed = new typed(",typing", {
+    var typed = new Typed(".typing", {
         strings:["Developer", "Front-End"],
         typeSpeed:100,
         backSpeed:60,
@@ -23,8 +23,8 @@ $(document).ready(function(){
 });
 
 $('.menu-btn').click(function(){
-    $('navbar .menu').toggleClass("active");
-    $('.menu-btn i').toggleClass('active');
+    $('.navbar .menu').toggleClass("active");
+    $('.menu-btn i').toggleClass("active");
 
 });
 
@@ -32,7 +32,7 @@ $('.carousel').owlCarousel({
     margin:20,
     loop:true,
     autoplayTimeOut:2000,
-    autoPlayHoverPauser:true,
+    autoplayHoverPauser:true,
     responsive:{
         0: {
             items:1,
