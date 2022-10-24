@@ -38,18 +38,18 @@ html {
     justify-content: space-between;
 }
 
-.navbar .logo a{
+.navbar .logo a {
     color: #fff;
     font-size: 35px;
     font-weight: 500;
 }
 
-.navbar .logo a span{
+.navbar .logo a span {
     color: #00804b;
     transition: all 0.3s ease;
 }
 
-.navbar.sticky .logo a span{
+.navbar.sticky .logo a span {
     color: #fff;
 }
 
@@ -66,11 +66,11 @@ html {
     transition: color 0.3s ease;
 }
 
-.navbar .menu li a:hover{
+.navbar .menu li a:hover {
     color: #00804b;
 }
 
-.navbar .sticky .menu li a:hover{
+.navbar .sticky .menu li a:hover {
     color: #fff;
 }
 
@@ -108,7 +108,7 @@ html {
     margin: 5px 0;
 }
 
-.home .home-content .text-3 span{
+.home .home-content .text-3 span {
     color: #00804b;
     font-weight: 500;
 }
@@ -164,11 +164,11 @@ html {
 }
 
 /*  todos os codigos similares  */
-section{
+section {
     padding: 100px 0;
 }
 
-section .title{
+section .title {
     font-family: 'RocknRoll One', sans-serif;
     text-align: center;
     font-size: 40px;
@@ -178,7 +178,7 @@ section .title{
     position: relative;
 }
 
-section .title::before{
+section .title::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -189,9 +189,9 @@ section .title::before{
     transform: translateX(-50%);
 }
 
-section .title::after{
+section .title::after {
     position: absolute;
-    bottom:-12px;
+    bottom: -12px;
     left: 50%;
     font-size: 20px;
     background: #fff;
@@ -200,14 +200,14 @@ section .title::after{
     transform: translateX(-50%);
 }
 
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills, .teams, .contact, footer {
     font-family: 'RocknRoll One', sans-serif;
 }
 
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
-.contact .contact-content{
+.contact .contact-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -216,33 +216,33 @@ section .title::after{
 
 /*  sessão sobre  */
 
-.about .title::after{
+.about .title::after {
     content: "Resumo";
 }
 
-.about .about-content .left{
+.about .about-content .left {
     width: 45%;
 }
 
-.about .about-content .right{
+.about .about-content .right {
     width: 55%;
 }
 
-.about .about-content .right .text{
+.about .about-content .right .text {
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
-.about .about-content .right .text span{
+.about .about-content .right .text span {
     color: #00804b;
 }
 
-.about .about-content .right p{
+.about .about-content .right p {
     text-align: justify;
 }
 
-.about .about-content .right a{
+.about .about-content .right a {
     display: inline-block;
     background: #00804b;
     color: #fff;
@@ -260,7 +260,7 @@ section .title::after{
     background: none;
 }
 
-.about .about-content .left img{
+.about .about-content .left img {
     width: 400px;
     height: 400px;
     object-fit: cover;
@@ -269,23 +269,23 @@ section .title::after{
 
 /*  sessão serviços */
 
-.services, .teams{
+.services, .teams {
     background: #111;
     color: #fff;
 }
 
 .services .title::before,
-.teams .title::before{
+.teams .title::before {
     background: #fff;
 }
 
 .services .title::after,
-.teams .title::after{
+.teams .title::after {
     background: #111;
-    content: "Que oferecemos";
+    content: "Disponíveis";
 }
 
-.services .serv-content .card{
+.services .serv-content .card {
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -295,15 +295,15 @@ section .title::after{
     transition: all 0.3s ease;
 }
 
-.services .serv-content .card:hover{
+.services .serv-content .card:hover {
     background: #00804b;
 }
 
-.services .serv-content .card .box{
+.services .serv-content .card .box {
     transition: all 0.3s ease;
 }
 
-.services .serv-content .card:hover .box{
+.services .serv-content .card:hover .box {
     transform: scale(1.05);
 }
 
@@ -323,11 +323,11 @@ section .title::after{
 }
 
 /*  sessão especialidades  */
-.skills .title::after{
+.skills .title::after {
     content: "Habilidades";
 }
 
-.skills .skills-content .column{
+.skills .skills-content .column {
     width: calc(50% - 30px);
 }
 
@@ -337,11 +337,11 @@ section .title::after{
     margin-bottom: 10px;
 }
 
-.skills .skills-content .left p{
+.skills .skills-content .left p {
     text-align: justify;
 }
 
-.skills .skills-content .left a{
+.skills .skills-content .left a {
     display: inline-block;
     background: #00804b;
     color: #fff;
@@ -371,7 +371,7 @@ section .title::after{
 
 .skills .skills-content .right span {
     font-weight: 500;
-    font-size: 18px;    
+    font-size: 18px;
 }
 
 .skills .skills-content .right .line {
@@ -381,7 +381,7 @@ section .title::after{
     position: relative;
 }
 
-.skills .skills-content .right .line::before{
+.skills .skills-content .right .line::before {
     content: "";
     position: absolute;
     height: 100%;
@@ -390,90 +390,90 @@ section .title::after{
     background: #111;
 }
 
-.skills .skills-content .right .html::before{
+.skills .skills-content .right .html::before {
     width: 60%;
 }
 
-.skills .skills-content .right .css::before{
+.skills .skills-content .right .css::before {
     width: 60%;
 }
 
-.skills .skills-content .right .js::before{
+.skills .skills-content .right .js::before {
     width: 50%;
 }
 
-.skills .skills-content .right .php::before{
+.skills .skills-content .right .php::before {
     width: 50%;
 }
 
-.skills .skills-content .right .sql::before{
+.skills .skills-content .right .sql::before {
     width: 50%;
 }
 
 /*  sessão Contato  */
 
-.contact .title::after{
+.contact .title::after {
     content: "Fale conosco";
 }
 
-.contact .contact-content .column{
+.contact .contact-content .column {
     width: calc(50% - 30px);
 }
 
-.contact .contact-content{
+.contact .contact-content {
     align-items: flex-start;
 }
 
-.contact .contact-content .left p{
+.contact .contact-content .left p {
     text-align: justify;
 }
 
-.contact .contact-content .text{
+.contact .contact-content .text {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
-.contact .contact-content .left .icons{
+.contact .contact-content .left .icons {
     margin: 10px 0;
 }
 
-.contact .contact-content .row{
+.contact .contact-content .row {
     display: flex;
     height: 65px;
     align-items: center;
 }
 
-.contact .contact-content .row .info{
+.contact .contact-content .row .info {
     margin-left: 30px;
 }
 
-.contact .contact-content .row .info .head{
+.contact .contact-content .row .info .head {
     font-weight: 500;
 }
 
-.contact .contact-content .row .info .sub-title{
+.contact .contact-content .row .info .sub-title {
     color: #333;
 }
 
-.contact .contact-content .row ion-icon{
+.contact .contact-content .row ion-icon {
     font-size: 25px;
     color: #00804b;
 }
 
-.contact .right form .fields{
+.contact .right form .fields {
     display: flex;
 }
 
-.contact .right form .field, 
-.contact .right form .field .fields{
+.contact .right form .field,
+.contact .right form .field .fields {
     width: 100%;
     height: 45px;
     margin-bottom: 15px;
 }
 
-.contact .right form .field input, 
-.contact .right form .textarea textarea{
+.contact .right form .field input,
+.contact .right form .textarea textarea {
     width: 100%;
     height: 100%;
     border: 1px solid #ccc;
@@ -484,30 +484,30 @@ section .title::after{
     font-family: 'RocknRoll One', sans-serif;
 }
 
-.contact .right form .name{
+.contact .right form .name {
     margin-right: 10px;
 }
 
-.contact .right form .email{
+.contact .right form .email {
     margin-left: 10px;
 }
 
-.contact .right form .textarea{
+.contact .right form .textarea {
     width: 100%;
-    height: 80px;   
+    height: 80px;
 }
 
-.contact .right form .textarea textarea{
+.contact .right form .textarea textarea {
     padding-top: 10px;
     resize: none;
 }
 
-.contact .right form .button{
+.contact .right form .button {
     width: 170px;
     height: 47px;
 }
 
-.contact .right form .button button{
+.contact .right form .button button {
     width: 100%;
     height: 100%;
     border: 2px solid #00804b;
@@ -520,7 +520,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 
-.contact .right form .button button:hover{
+.contact .right form .button button:hover {
     color: #00804b;
     background: none;
 }
@@ -539,131 +539,136 @@ footer span a {
     text-decoration: none;
 }
 
-footer span a:hover{
+footer span a:hover {
     text-decoration: underline;
 }
 
 /*  responsivo  */
 
-@media (max-width: 1300px){
-    .navbar .max-width{
+@media (max-width: 1300px) {
+    .navbar .max-width {
         margin-left: 0;
     }
 }
 
-@media (max-width: 1104px){
-    .about .about-content .left img{
+@media (max-width: 1104px) {
+    .about .about-content .left img {
         width: 350px;
         height: 350px;
     }
 }
 
-@media (max-width: 991px){
-    .navbar .max-width{
+@media (max-width: 991px) {
+    .navbar .max-width {
         padding: 0 50px;
     }
 }
 
-@media (max-width: 947px){
-    .max-width{
+@media (max-width: 947px) {
+    .max-width {
         max-width: 800px;
         padding: 0 50px;
     }
 
 
-.menu-btn{
-    display: block;
-    z-index: 999;
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+
+    .navbar .menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        left: -100%;
+        top: 0;
+        background: #111;
+        padding-top: 80px;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .navbar .menu.active {
+        left: 0;
+    }
+
+    .navbar .menu li {
+        display: block;
+    }
+
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 70px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 35px;
+    }
+
+    .home .home-content a {
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+
+    .about .about-content .column {
+        width: 50%;
+    }
+
+    .about .about-content .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+
+    .about .about-content .right {
+        flex: 100%;
+    }
+
+    .services .serv-content .card {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+
+    .skills .skills-content .column,
+    .contact .contact-content .column {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    footer {
+        margin-top: 15px;
+    }
 }
 
-.navbar .menu{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    left: -100%;
-    top: 0;
-    background: #111;
-    padding-top: 80px;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.navbar .menu.active{
-    left: 0;
-}
-
-.navbar .menu li{
-    display: block;
-}
-
-.navbar .menu li a{
-    display: inline-block;
-    margin: 20px 0;
-    font-size: 25px;
-}
-
-.home .home-content .text-2{
-    font-size: 70px;
-}
-
-.home .home-content .text-3{
-    font-size: 35px;
-}
-
-.home .home-content a{
-    font-size: 23px;
-    padding: 10px 30px;
-}
-
-.about .about-content .column{
-    width: 50%;
-}
-
-.about .about-content .left{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto 60px;
-}
-
-.about .about-content .right{
-    flex: 100%;
-}
-
-.services .serv-content .card {
-    width: calc(50% - 10px);
-    margin-bottom: 20px;
-}
-
-.skills .skills-content .column, 
-.contact .contact-content .column{
-    width: 100%;
-    margin-bottom: 35px;
-}
-
-footer {
-    margin-top: 15px;
-}
-}
-@media (max-width: 690px){
-    .home .home-content .text-2{
+@media (max-width: 690px) {
+    .home .home-content .text-2 {
         font-size: 60px;
     }
-    .home .home-content .text-3{
+
+    .home .home-content .text-3 {
         font-size: 32px;
     }
-    .home .home-content a{
+
+    .home .home-content a {
         font-size: 20px;
     }
+
     .services .serv-content .card {
         width: 100%;
     }
 }
 
-@media (max-width: 500px){
-    .home .home-content .text-2{
+@media (max-width: 500px) {
+    .home .home-content .text-2 {
         font-size: 50px;
     }
-    .home .home-content .text-3{
+
+    .home .home-content .text-3 {
         font-size: 27px;
     }
 }
