@@ -402,7 +402,11 @@ section .title::after {
     width: 50%;
 }
 
-.skills .skills-content .right .php::before {
+.skills .skills-content .right .react::before {
+    width: 50%;
+}
+
+.skills .skills-content .right .node::before {
     width: 50%;
 }
 
