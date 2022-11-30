@@ -16,7 +16,7 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing", {
-    strings: ["QA", "Cypress.io"],
+    strings: ["QA", "Analyst"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
