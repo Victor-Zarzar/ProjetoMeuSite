@@ -414,6 +414,14 @@ section .title::after {
     width: 50%;
 }
 
+.skills .skills-content .right .c::before {
+    width: 50%;
+}
+
+.skills .skills-content .right .testes::before {
+    width: 50%;
+}
+
 /*  sessão Contato  */
 
 .contact .title::after {
