@@ -422,6 +422,14 @@ section .title::after {
     width: 50%;
 }
 
+.skills .skills-content .right .java::before {
+    width: 50%;
+}
+
+.skills .skills-content .right .junit::before {
+    width: 50%;
+}
+    
 /*  sessão Contato  */
 
 .contact .title::after {
