@@ -429,6 +429,10 @@ section .title::after {
 .skills .skills-content .right .junit::before {
     width: 50%;
 }
+
+.skills .skills-content .right .manual::before {
+    width: 50%;
+}
     
 /*  sessão Contato  */
 
